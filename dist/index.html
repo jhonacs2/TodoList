@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container-todo">
+      <div class="container-projects">
+        <input type="text" placeholder="Write...." class="input-project" />
+        <button class="button" id="new-project">New Project</button>
+        <div class="containerlist"></div>
+        
+      </div>
+
+      <div class="container-list-todo">
+        <div class="container-tasks">
+          <div class="inputtask">
+            <input
+              type="text"
+              placeholder="Write Your Task"
+              class="input-task"/>
+            <button class="buttonNewtask" id="new-task">New Task</button>
+          </div>
+
+          <ul class="todo-list">
+            <!-- <li class="completed" data-id="abc">
+              <div class="view">
+                <input class="toggle" type="checkbox" checked>
+                <label>Probar JavaScript <span>Hora</span></label>
+                <button class="destroy"></button>
+              </div>
+            </li>
+            <li class="completed" data-id="abc">
+              <div class="view">
+                <input class="toggle" type="checkbox" checked>
+                <label>Probar  <span>Hora</span></label>
+                <button class="destroy"></button>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
