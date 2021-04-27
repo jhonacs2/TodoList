@@ -1,8 +1,8 @@
 import {Todo,TodoList,Task} from './classes';
 import { newProject, newTask } from './components';
 import {} from './components-task';
-export const todoList = new TodoList()
-
+export const todoList = new TodoList();
+todoList.todo.forEach( all => newProject(all) );
 
 //crea projecto
 // const projecto1 = new Todo('Projecto Uno');
@@ -16,6 +16,8 @@ export const todoList = new TodoList()
 // console.log(todoList.todo[0].taskList.completed)
 
 // console.log(todoList)
+
+
 
 
 
